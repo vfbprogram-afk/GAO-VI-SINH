@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111827;
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+.bold-text {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  line-height: 0.85;
+}
+
+.dot-grid {
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid #16a34a;
+}
+
+.heading-giant {
+  font-size: clamp(4rem, 15vw, 15rem);
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  line-height: 0.85;
+  text-transform: uppercase;
+}
